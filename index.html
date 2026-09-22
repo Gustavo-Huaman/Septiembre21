@@ -13,13 +13,20 @@
 <body>
     <div id="particles-js"></div>
     <div class="greetings">
-        <span>J</span>
-        <span>A</span>
+        <span>G</span>
+        <span>I</span>
         <span>M</span>
-        <span>Y</span>
+        <span>E</span>
+        <span>N</span>
+        <span>A</span>
     </div>
     <div class="description" id="message">
         Tengo un regalo especial para ti!!
+    </div>
+    <div class="mensaje" id="mensaje" style="text-align: center;">
+        <h3><i>Poco nos conocemos</i></h3>
+        <h3><i>pero te mereces almenos</i></h3>
+        <h3><i>un detalle de mi parte</i></h3>
     </div>
     <div class="button">
         <button><a href="src/index.html">Haga Clic</a></button>
@@ -53,7 +60,7 @@
             messageElement.textContent = randomMessage;
         }
 
-        setInterval(changeMessage, 4000); // Cambia el mensaje cada 5 segundos
+        setInterval(changeMessage, 3000); // Cambia el mensaje cada 5 segundos
 
         // Configuración de partículas para el fondo
        particlesJS('particles-js', {
